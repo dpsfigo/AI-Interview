@@ -29,6 +29,7 @@ nums 的每个元素都将在 [-9999, 9999]之间
 """
 
 
+# 左闭右闭
 class Solution:
     def half_search(self, nums, target) -> int:
         left, right = 0, len(nums) - 1
